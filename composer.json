@@ -1,0 +1,29 @@
+{
+    "name": "aelora/truthy",
+    "version": "1.0.0",
+    "description": "Add a simple isTruthy and isFalsy function to see if things are true-like or false-like",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/truthy.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ryan Nutt",
+            "email": "ryan@aelora.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
