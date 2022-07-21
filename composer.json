@@ -25,5 +25,8 @@
     },
     "require": {
         "php": "^7.0"
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest"
     }
 }
