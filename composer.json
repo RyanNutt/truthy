@@ -1,6 +1,5 @@
 {
     "name": "aelora/truthy",
-    "version": "1.0.0",
     "description": "Add a simple isTruthy and isFalsy function to see if things are true-like or false-like",
     "type": "library",
     "license": "MIT",
@@ -24,7 +23,7 @@
         "pestphp/pest": "^1.21"
     },
     "require": {
-        "php": "^7.0"
+        "php": ">=7.0"
     },
     "scripts": {
         "test": "./vendor/bin/pest"
