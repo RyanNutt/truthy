@@ -5,7 +5,7 @@ if (!function_exists('isTruthy')) {
     {
         if (is_string($value)) {
             return !in_array(strtolower($value), [
-                '', '0', '0.0', 'false', 'f', 'no', 'n', 'off', 'null',
+                '', '0', '0.0', 'false', 'f', 'no', 'n', 'off', 'null', 'none',
             ]);
         } else if (is_int($value)) {
             return $value !== 0;
