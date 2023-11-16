@@ -23,7 +23,7 @@ There are no settings.
 
 Once loaded, there will be an `isTruthy` and `isFalsy` function in the global namespace.
 
-The following values are considered falsy
+The following values are considered falsy (case insensitive)
 * false
 * null
 * empty string
@@ -31,7 +31,7 @@ The following values are considered falsy
 * 0.0
 * empty array
 * empty object
-* strings "no", "n", "false", "f", "off", "null", "0", "0.0"
+* strings "no", "n", "false", "f", "off", "null", "none", "0", "0.0"
 
 Everything else is considered truthy. 
 
